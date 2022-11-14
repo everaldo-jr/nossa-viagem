@@ -1,0 +1,115 @@
+.contato {
+   display: flex;
+   flex-wrap: wrap;
+   gap: 20px;
+   justify-content: space-around;
+   align-items: center;
+   padding-top: 20px;
+   padding-bottom: 20px;
+   max-width: 1000px;
+   border: 2px solid var(--azul-medio);
+   border-radius: 10px;
+   margin-top: 40px;
+   margin-bottom: 40px;
+   margin: 40px 10px;
+}
+
+.contato__dados, .contato__formulario {
+   padding-top: 20px;
+   padding-bottom: 20px;
+}
+
+.contato__redes-titulo {
+   font-size: 1.5em;
+   line-height: 28px;
+   font-weight: 700;
+   text-align: left;
+   margin-bottom: 20px;
+   color: var(--azul-medio);
+}
+
+.contato__redes-sociais {
+   display: flex;
+   align-items: center;
+   gap: 15px;
+}
+
+.contato__endereco {
+   margin-top: 20px;
+   margin-bottom: 20px;
+}
+
+.contato__endereco p, .contato__meios a {
+   color: var(--azul-medio);
+   line-height: 25px;
+}
+
+.contato__contato--titulo {
+   font-size: 1.5em;
+   font-weight: 700;
+   color: var(--azul-medio);
+   line-height: 28px;
+   text-align: left;
+   margin-bottom: 30px;
+}
+
+.contato__contato--texto {
+   color: var(--azul-medio);
+   line-height: 28px;
+   text-align: left;
+   margin-bottom: 20px;
+}
+
+.contato__botao {
+   display: inline-block;
+   padding: 14px 24px;
+   background-color: var(--azul-claro);
+   border-radius: 5px;
+   text-transform: uppercase;
+   color: var(--branco);
+   font-weight: 700;
+   border: none;
+   cursor: pointer;
+}
+
+.form label {
+   display: block;
+   color: var(--azul-medio);
+   font-style: italic;
+}
+
+.form input[type="text"],
+.form input[type="email"],
+.form input[type="tel"],
+.form input[type="date"],
+.form input[type="number"]
+.form select,
+.form textarea {
+   box-sizing: border-box;
+   padding: 7px;
+   border: 1px solid var(--azul-claro);
+   border-radius: 4px;
+   margin: 10px 0;
+}
+
+.footer__navegacao select {
+   padding: 5px;
+}
+
+.placeholder-text::placeholder {
+   font-family: var(--fonte-principal);
+   color: var(--cinza);
+}
+
+.select {
+   font-family: var(--fonte-principal);
+   color: var(--cinza);
+   width: 156px;
+}
+
+@media (max-width: 600px) {
+   .contato {
+      justify-content: flex-start;
+      margin: 10px!important;
+   }
+}

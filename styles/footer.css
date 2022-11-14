@@ -1,0 +1,68 @@
+.footer__bg {
+   background-color: var(--laranja-claro);
+}
+
+.footer {
+   display: flex;
+   justify-content: space-between;
+   gap: 20px;
+   max-width: 1030px;
+   padding-top: 40px;
+   padding-bottom: 20px;
+}
+
+.footer__texto-loja-aplicativo, 
+.footer__texto-redes-sociais,
+.footer__texto-forma-pagamento,
+.footer__navegacao-titulo,
+.footer__links-titulo {
+   font-size: 18px;
+   font-weight: 700;
+   color: var(--preto);
+   margin-bottom: 15px;
+}
+
+.footer__loja-aplicativo,
+.footer__redes-sociais,
+.footer__forma-pagamento {
+   display: flex;
+   gap: 20px;
+   margin-bottom: 30px;
+}
+
+.footer__loja-aplicativo img {
+   text-align: left;
+}
+
+.footer__segunda-coluna {
+   display: flex;
+   flex-direction: column;
+   justify-content: space-around;
+}
+
+.footer__navegacao select {
+   box-sizing: border-box;
+   padding: 7px;
+   border: 1px solid var(--preto);
+   border-radius: 4px;
+   margin: 10px 0;
+}
+
+.footer__links-atendimento {
+   display: flex;
+   gap: 30px;
+}
+
+.regulamentos, 
+.atendimento {
+   display: flex;
+   flex-direction: column;
+}
+
+.link {
+   margin-bottom: 15px;
+}
+
+.link:hover {
+   text-decoration: underline;
+}

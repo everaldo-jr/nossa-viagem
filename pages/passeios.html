@@ -1,0 +1,207 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../styles/reset.css">
+    <link rel="icon" href="../assets/icon/icon_aviao.ico">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="../styles/footer.css">
+    <link rel="stylesheet" href="../styles/passeios.css">
+    <link rel="stylesheet" href="../styles/formulario.css">
+    <link rel="stylesheet" href="../styles/index.css">
+    <link rel="stylesheet" href="../styles/header.css">
+    <link rel="stylesheet" href="../styles/login.css">
+    <link rel="stylesheet" href="../styles/pesquisa.css">
+    <link rel="stylesheet" href="../styles/styles.css">
+    <title>Nossa Viagem - Passeios</title>
+</head>
+
+<body>
+    <!--Cabeçalho da página-->
+    <header class="header-bg">
+        <div class="header container">
+            <a href="../index.html">
+                <img src="../assets/img/img_logo-agencia.png" alt="Imagem de um avião" width="200">
+            </a>
+            <nav>
+                <ul class="header-menu"> 
+                    <li><a href="../index.html">Minha Viagem</a></li>
+                    <li><a href="./login.html">Login</a></li>
+                    <li><a href="./fale-conosco.html">Ajuda</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+    
+    <div class="menu__site">
+        <ul class="lista__menu"> 
+            <li class="opcoes__menu"><a href="./pacotes.html">Pacotes</a></li>
+            <li class="opcoes__menu"><a href="./passagens.html">Passagens</a></li>
+            <li class="opcoes__menu"><a href="./pacotes.html">Hospedagem</a></li>
+            <li class="opcoes__menu"><a href="./passeios.html">Passeios</a></li>
+            <li class="opcoes__menu"><a href="./aluguel_de_carros.html">Aluguel de Carros</a></li>
+        </ul>
+    </div>
+
+    <!--Main da página-->
+    <main>
+        <!--Painel de buscas-->
+        <section class="pesquisa container">
+            <h2 class="pesquisa__titulo">Passeios e atrações</h2>
+            <p class="pesquisa__texto">Encontre aqui a diversão da sua viagem!</p>
+            <input type="search" class="pesquisa__busca" placeholder="Nome da cidade ou atração de interesse" id="">
+        </section>
+
+        <!--Painel de escolha-->
+        <Section>
+            <div class="pai">
+                <a class="teste">Faça sua escolha</a>
+            </div>
+        </Section>
+        <section>
+            <div class="passeios">
+                <form class="form" action="">
+                    <div>
+                        <label for="nome">Para onde vamos?</label>
+                        <input type="text" id="nome" placeholder="Cidade ou aeroporto" size="50">
+                    </div>
+
+                    <div>
+                        <label for="devolucao">Data</label>
+                        <input type="date" id="devolucao">
+                    </div>
+            
+                    <div>
+                        <label for="hora">Hora</label>
+                        <input type="time" id="hora">
+                    </div>
+            
+                    <button class="buscar__botao">Buscar</button>
+                </form>
+            </div>
+        </section>
+        
+        <!--Painel de destinos mais procurados-->
+        <section class="pesquisa container">
+            <div>
+                <h2 class="pesquisa__titulo">Destinos mais desejados</h2>
+                <p class="pesquisa__texto">Veja aqui os locais mais atrativos!</p>
+            </div>
+            <!--Carrossel de imagens-->
+            <div class="carrossel">
+                <ul>
+                    <li>Walt Disney World Resort<img src="../assets/img/disney.jpeg" alt=""></li>
+                    <li>Gramado<img src="../assets/img/gramado.jpg" alt=""></li>
+                    <li>Rio de Janeiro<img src="../assets/img/rio.jpeg" alt=""></li>
+                    <li>Beto Carrero<img src="../assets/img/beto.jpeg" alt=""></li>
+                </ul>
+            </div>
+        </section>
+
+        <!--Menu de Ofertas de destinos-->
+
+        <section class="ofertas">
+            <h2 class="pesquisa__titulo">Ofertas</h2>
+            <p class="pesquisa__texto">Os melhores destinos com os melhores preços!</p>
+            <!--Carrossel de imagens-->
+            <div class="carrossel2">
+                <ul>
+                    <li>Walt Disney World Resort + 3 diárias no Homewood Suites By Hilton Orlando Flamingo Crossings, Fl<img src="../assets/img/disney.jpeg" alt=""></li>
+                    <li>Gramado + Jantar para 2 pessoas<img src="../assets/img/gramado.jpg" alt=""></li>
+                    <li>Beto Carrero + Jantar para família<img src="../assets/img/beto.jpeg" alt=""></li>
+                    <li>Torre Eiffel + Estadia no Résidence Charles Floquet<img src="../assets/img/torre.jpeg" alt=""></li>
+                </ul>
+            </div>
+        </section>
+        <section class="ofertas2">
+            <div class="menu-ofertas2">
+                <p>Se tiver em dúvida de qual passeio escolher, veja aqui as ofetas disponíveis!</p>
+                <button class="buscar__botao">Buscar</button>
+            </div>
+            
+        </section>
+
+        <footer class="footer__bg">
+            <div class="footer container">
+                <div>
+                    <h3 class="footer__texto-loja-aplicativo">Baixe Nosso Aplicativo</h3>
+                    <div class="footer__loja-aplicativo">
+                        <a href="#"><img src="../assets/img/img_app-store.png" alt="Loja Apple Store" width="130" height="50"></a>
+                        <a href="#"><img src="../assets/img/img_play-store.png" alt="Loja Google Play" width="130" height="50"></a>
+                    </div>
+        
+                    <hr class="linha">
+        
+                    <h3 class="footer__texto-redes-sociais">Siga nossas redes sociais</h3>
+                    <div class="footer__redes-sociais">
+                        <a href="#"><img src="../assets/img/img_facebook.png" width="40" height="40" alt="Facebook"></a>
+                        <a href="#"><img src="../assets/img/img_instagram.png" width="40" height="40" alt="Instagram"></a>
+                        <a href="#"><img src="../assets/img/img_twitter.png" width="40" height="40" alt="Twitter"></a>
+                    </div>
+        
+                    <hr class="linha">
+        
+                    <h3 class="footer__texto-forma-pagamento">Formas de Pagamento</h3>
+                    <div class="footer__forma-pagamento">
+                        <a href="#"><img src="../assets/img/img_visa.png" alt="Visa" width="40" height="40"></a>
+                        <a href="#"><img src="../assets/img/img_mastercard.png" alt="Mastercard" width="40" height="40"></a>
+                        <a href="#"><img src="../assets/img/img_american-express.png" alt="American Express" width="44" height="44"></a>
+                        <a href="#"><img src="../assets/img/img_dinners.png" alt="Dinners" width="40" height="40"></a>
+                    </div>
+        
+                    <hr class="linha">
+        
+                </div>
+        
+                <div class="footer__segunda-coluna">
+                    <div class="footer__navegacao">
+                        <h4 class="footer__navegacao-titulo">Navegar Pelo Site</h4>
+                        <label for="assunto">Assunto</label>
+                        <select id="assunto" name="assunto">
+                            <option value="Pacotes" selected>Pacotes</option>
+                            <option value="Passagens">Passagens</option>
+                            <option value="Hospedagens">Hospedagens</option>
+                            <option value="Passeios">Passeios</option>
+                            <option value="Aluguel de carro">Aluguel de carro</option>
+                        </select>
+                    </div> 
+                    
+                    <hr class="linha">
+                    
+                    <div class="footer__links-atendimento">
+                        <div class="footer__links">
+                            <h4 class="footer__links-titulo">Sobre Nossa Viagem</h4>
+                            <a class="link" href="#">Quem somos</a>
+                        </div>
+                        <hr class="linha">
+                        <div class="footer__links">
+                            <h4 class="footer__links-titulo">Central de Atendimento</h4>
+                            <div class="atendimento">
+                                <a class="link" href="#">Compre sua viagem</a>
+                                <a class="link" href="#">SAC</a>
+                            </div>
+                        </div>
+                        <hr class="linha">
+                        <div>
+                            <h4 class="footer__links-titulo">Regulamentos</h4>
+                            <div class="regulamentos">
+                                <a class="link" href="">Termos de Uso</a>
+                                <a class="link" href="">Condiçoes Gerais</a>
+                                <a class="link" href="">Politica de Privacidade</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>  
+            </div>
+        </footer>
+
+    </main>
+
+
+    
+</body>
+</html>

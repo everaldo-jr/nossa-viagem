@@ -1,0 +1,218 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- CSS only -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
+    <title>Nossa Viagem</title>
+    <link rel="stylesheet" href="./styles/reset.css">
+    <link rel="icon" href="./assets/icon/icon_aviao.ico">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./styles/styles.css">
+    <link rel="stylesheet" href="./styles/index.css">
+    
+</head>
+<body>
+
+    <header class="header-bg">
+        <div class="header container">
+            <a href="./index.html">
+                <img src="./assets/img/img_logo-agencia.png" alt="Imagem de um avião" width="200">
+            </a>
+            <nav>
+                <ul class="header-menu"> 
+                    <li><a href="./index.html">Minha Viagem</a></li>
+                    <li><a href="./pages/login.html">Login</a></li>
+                    <li><a href="./pages/fale-conosco.html">Ajuda</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+    <div class="menu__site">
+        <ul class="lista__menu"> 
+            <li class="opcoes__menu"><a href="./pages/pacotes.html">Pacotes</a></li>
+            <li class="opcoes__menu"><a href="./pages/destinos.html">Passagens</a></li>
+            <li class="opcoes__menu"><a href="./pages/pacotes.html">Hospedagens</a></li>
+            <li class="opcoes__menu"><a href="./pages/passeios.html">Passeios</a></li>
+            <li class="opcoes__menu"><a href="./pages/aluguel_de_carros.html">Aluguel de Carros</a></li>
+        </ul>
+    </div>
+    <form class="pacote__viagem">
+        <h1 class="titulo__forms">Pacote de Viagem</h1>
+        <ul class="opcao_pacote"> 
+            <select name="estado" class="partida__destino"> 
+                <option value="estado">Estado de Partida</option> 
+                <option value="ac">Rio Branco, Acre</option> 
+                <option value="al">Maceió, Alagoas</option> 
+                <option value="am">Amazonas</option> 
+                <option value="ap">Macapá, Amapá</option> 
+                <option value="ba">Salvador, Bahia</option> 
+                <option value="ce">Fortaleza, Ceará</option> 
+                <option value="df">Brasília, Distrito Federal</option> 
+                <option value="es">Vitória, Espírito Santo</option> 
+                <option value="go">Goiânia, Goiás</option> 
+                <option value="ma">São Luiz, Maranhão</option> 
+                <option value="mt">Cuiabá, Mato Grosso</option> 
+                <option value="ms">Campo Grande, Mato Grosso do Sul</option> 
+                <option value="mg">Belo Horizonte, Minas Gerais</option> 
+                <option value="pa">Belém, Pará</option> 
+                <option value="pb">João Pessoa, Paraíba</option> 
+                <option value="pr">Curitiba, Paraná</option> 
+                <option value="pe">Recife, Pernambuco</option> 
+                <option value="pi">Teresina, Piauí</option> 
+                <option value="rj">Rio de Janeiro, Rio de Janeiro</option> 
+                <option value="rn">Natal, Rio Grande do Norte</option> 
+                <option value="ro">Porto Velho, Rondônia</option> 
+                <option value="rs">Porto Alegre, Rio Grande do Sul</option> 
+                <option value="rr">Porto Velho, Rondônia</option>
+                <option value="rr">Boa Vista, Roraima</option> 
+                <option value="sc">Florianópolis, Santa Catarina</option> 
+                <option value="se">Aracaju, Sergipe</option> 
+                <option value="sp">São Paulo, São Paulo</option> 
+                <option value="to">Palmas, Tocantins</option> 
+            </select>
+            <select name="estado" class="partida__destino"> 
+                <option value="estado">Estado de Destino</option> 
+                <option value="ac">Rio Branco, Acre</option> 
+                <option value="al">Maceió, Alagoas</option> 
+                <option value="am">Amazonas</option> 
+                <option value="ap">Macapá, Amapá</option> 
+                <option value="ba">Salvador, Bahia</option> 
+                <option value="ce">Fortaleza, Ceará</option> 
+                <option value="df">Brasília, Distrito Federal</option> 
+                <option value="es">Vitória, Espírito Santo</option> 
+                <option value="go">Goiânia, Goiás</option> 
+                <option value="ma">São Luiz, Maranhão</option> 
+                <option value="mt">Cuiabá, Mato Grosso</option> 
+                <option value="ms">Campo Grande, Mato Grosso do Sul</option> 
+                <option value="mg">Belo Horizonte, Minas Gerais</option> 
+                <option value="pa">Belém, Pará</option> 
+                <option value="pb">João Pessoa, Paraíba</option> 
+                <option value="pr">Curitiba, Paraná</option> 
+                <option value="pe">Recife, Pernambuco</option> 
+                <option value="pi">Teresina, Piauí</option> 
+                <option value="rj">Rio de Janeiro, Rio de Janeiro</option> 
+                <option value="rn">Natal, Rio Grande do Norte</option> 
+                <option value="ro">Porto Velho, Rondônia</option> 
+                <option value="rs">Porto Alegre, Rio Grande do Sul</option> 
+                <option value="rr">Porto Velho, Rondônia</option>
+                <option value="rr">Boa Vista, Roraima</option> 
+                <option value="sc">Florianópolis, Santa Catarina</option> 
+                <option value="se">Aracaju, Sergipe</option> 
+                <option value="sp">São Paulo, São Paulo</option> 
+                <option value="to">Palmas, Tocantins</option> 
+            </select>
+            <button class="btn btn-secondary dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false">
+                Data de Check-in - Data de Check-out
+            </button>
+                <ul class="dropdown-menu">
+                    <li><input type="date"><input type="date"></li>
+                </ul>
+            <div class="dropdown">
+                <button class="btn btn-secondary dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false">
+                  1 Quarto - 0 Criança - 1 Adulto
+                </button>
+            <ul class="dropdown-menu">
+                <li>Quarto: <input type="number" placeholder="1 Quartos" class="dropdown-item"></li>
+                <li>Adultos: <input type="number" placeholder="1 Adulto" class="dropdown-item"></li>
+                <li>Criancas: <input type="number" placeholder="0 Criança" class="dropdown-item"></li>
+                <input type="button" value="Ok" class="btn btn-success">
+            </ul>
+            <input type="button" value="Pesquisar" class="btn btn-success">
+        </ul>          
+    </form>
+
+    <sessao class="destinos__procurados">
+        <h1 class="title__destinos">Destinos Mais Procurados</h1>
+            <div class="cidades_procuradas">
+                <div><img src="./assets/img/maragogi.jpeg" class="img__cidades"><h1>Maragogi - AL</h1></div>
+                <div><img src="./assets/img/Salvador.jpg" class="img__cidades"><h1> Salvador - BA</h1></div>
+                <div><img src="./assets/img/espirito-santo.jpg" class="img__cidades"><h1> Espirito Santo - ES</h1></div>
+                <div><img src="./assets/img/saopaulo.jpeg" class="img__cidades"> <h1>Sao Paulo - SP</h1></div>
+            </div>
+    </sessao>
+
+    <div class="titulo__ofertas">
+         <h3>Pacote de Ofertas</h3>
+    </div>
+    <div>    
+        <ul class="pacote__ofertas"> 
+            <ol><img src="./assets/img/gramado.jpg" class="ofertas">Oferta para Gramado</ol>
+            <ol><img src="./assets/img/aracaju.jpg" class="ofertas">Oferta para Aracaju</ol>
+            <ol><img src="./assets/img/rio_janeiro.jpg" class="ofertas">Oferta para Rio de Janeiro</ol>
+            <ol><img src="./assets/img/natal.jpg" class="ofertas">Oferta para Natal</ol>
+        </ul>
+    </div>
+  <!-- JavaScript Bundle with Popper -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3" crossorigin="anonymous"></script>
+</body>
+
+<footer class="footer__bg">
+    <div class="footer container">
+        <div>
+            <h3 class="footer__texto-loja-aplicativo">Baixe Nosso Aplicativo</h3>
+            <div class="footer__loja-aplicativo">
+                <a href="#"><img src="./assets/img/img_app-store.png" alt="Loja Apple Store" width="130" height="50"></a>
+                <a href="#"><img src="./assets/img/img_play-store.png" alt="Loja Google Play" width="130" height="50"></a>
+            </div>
+
+                <h3 class="footer__texto-redes-sociais">Siga nossas redes sociais</h3>
+                <div class="footer__redes-sociais">
+                    <a href="#"><img src="./assets/img/img_facebook.png" width="40" height="40" alt="Facebook"></a>
+                    <a href="#"><img src="./assets/img/img_instagram.png" width="40" height="40" alt="Instagram"></a>
+                 <a href="#"><img src="./assets/img/img_twitter.png" width="40" height="40" alt="Twitter"></a>
+                </div>
+
+                <h3 class="footer__texto-forma-pagamento">Formas de Pagamento</h3>
+             <div class="footer__forma-pagamento">
+                 <a href="#"><img src="./assets/img/img_visa.png" alt="Visa" width="40" height="40"></a>
+                    <a href="#"><img src="./assets/img/img_mastercard.png" alt="Mastercard" width="40" height="40"></a>
+                    <a href="#"><img src="./assets/img/img_american-express.png" alt="American Express" width="44" height="44"></a>
+                 <a href="#"><img src="./assets/img/img_dinners.png" alt="Dinners" width="40" height="40"></a>
+                </div>
+            </div>
+
+            <div class="footer__segunda-coluna">
+                <div class="footer__navegacao">
+                    <h4 class="footer__navegacao-titulo">Navegar Pelo Site</h4>
+                    <label for="assunto">Assunto</label>
+                    <select id="assunto" name="assunto">
+                        <option value="Pacotes" selected>Pacotes</option>
+                        <option value="Passagens">Passagens</option>
+                        <option value="Hospedagens">Hospedagens</option>
+                     <option value="Passeios">Passeios</option>
+                        <option value="Aluguel de carro">Aluguel de carro</option>
+                 </select>
+                </div>        
+            
+                <div class="footer__links-atendimento">
+                    <div>
+                        <h4 class="footer__links-titulo">Sobre Nossa Viagem</h4>
+                        <a class="link" href="#">Quem somos</a>
+                    </div>
+                    <div>
+                        <h4 class="footer__links-titulo">Central de Atendimento</h4>
+                        <div class="atendimento">
+                            <a class="link" href="#">Compre sua viagem</a>
+                            <a class="link" href="#">SAC</a>
+                        </div>
+                    </div>
+                    <div>
+                        <h4 class="footer__links-titulo">Regulamentos</h4>
+                        <div class="regulamentos">
+                            <a class="link" href="">Termos de Uso</a>
+                            <a class="link" href="">Condiçoes Gerais</a>
+                            <a class="link" href="">Politica de Privacidade</a>
+                        </div>
+                    </div>
+                </div>
+            </div>  
+        </div>
+    </footer>
+
+
+</html>

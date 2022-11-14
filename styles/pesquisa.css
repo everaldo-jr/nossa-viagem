@@ -1,0 +1,53 @@
+.pesquisa {
+   background-color: var(--azul-medio);
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   color: var(--branco);
+   text-align: center;
+   padding-top: 3em;
+   padding-bottom: 3em;
+}
+
+.pesquisa__titulo {
+   font-size: 2em;
+   line-height: 28px;
+   font-weight: 700;
+}
+
+.pesquisa__texto {
+   margin: 1em 0;
+   line-height: 1.5em;
+}
+
+.pesquisa__busca {
+   background-color: transparent;
+   border: 1px solid var(--branco);
+   border-radius: 24px;
+   padding: 1em;
+   width: 50%;
+}
+
+.pesquisa__busca::placeholder {
+   font-family: var(--fonte-principal);
+   font-size: 14px;
+   color: var(--branco);
+   text-align: center;
+   background: url(../assets/img/lupa.png) no-repeat;
+   background-position: left;
+}
+
+@media (max-width: 600px) {
+   .pesquisa__titulo {
+      font-size: 22px;
+   }
+
+   .pesquisa__texto {
+      margin: 1em;
+   }
+   
+   .pesquisa__busca {
+      width: 80%;
+   }
+
+}
