@@ -16,22 +16,21 @@
     <link rel="stylesheet" href="./styles/index.css">
     
 </head>
-<body>
 
-    <header class="header-bg">
-        <div class="header container">
+
+<header class="header-bg">
+    <div class="header container">
             <a href="./index.html">
                 <img src="./assets/img/img_logo-agencia.png" alt="Imagem de um avião" width="200">
             </a>
-            <nav>
-                <ul class="header-menu"> 
-                    <li><a href="./index.html">Minha Viagem</a></li>
-                    <li><a href="./pages/login.html">Login</a></li>
-                    <li><a href="./pages/fale-conosco.html">Ajuda</a></li>
-                </ul>
-            </nav>
-        </div>
-    </header>
+        <nav>
+            <ul class="header-menu"> 
+                <li><a href="./index.html">Minha Viagem</a></li>
+                <li><a href="./pages/login.html">Login</a></li>
+                <li><a href="./pages/fale-conosco.html">Ajuda</a></li>
+            </ul>
+        </nav>
+    </div>
     <div class="menu__site">
         <ul class="lista__menu"> 
             <li class="opcoes__menu"><a href="./pages/pacotes.html">Pacotes</a></li>
@@ -41,11 +40,15 @@
             <li class="opcoes__menu"><a href="./pages/aluguel_de_carros.html">Aluguel de Carros</a></li>
         </ul>
     </div>
+        
+</header>
+<body> 
+    
     <form class="pacote__viagem">
         <h1 class="titulo__forms">Pacote de Viagem</h1>
         <ul class="opcao_pacote"> 
             <select name="estado" class="partida__destino"> 
-                <option value="estado">Estado de Partida</option> 
+                <option value="estado">Local de Partida</option> 
                 <option value="ac">Rio Branco, Acre</option> 
                 <option value="al">Maceió, Alagoas</option> 
                 <option value="am">Amazonas</option> 
@@ -76,7 +79,7 @@
                 <option value="to">Palmas, Tocantins</option> 
             </select>
             <select name="estado" class="partida__destino"> 
-                <option value="estado">Estado de Destino</option> 
+                <option value="estado">Local de Destino</option> 
                 <option value="ac">Rio Branco, Acre</option> 
                 <option value="al">Maceió, Alagoas</option> 
                 <option value="am">Amazonas</option> 
