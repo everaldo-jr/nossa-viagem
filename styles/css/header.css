@@ -1,0 +1,117 @@
+* {
+  margin: 0;
+  padding: 0; }
+
+header {
+  display: grid;
+  grid-template-columns: 700px;
+  grid-template-rows: 200px;
+  justify-content: center;
+  background-image: url("/Projeto Coder House/");
+  background-repeat: no-repeat;
+  background-size: 1400px 400px; }
+
+.lista__menu {
+  display: flex;
+  font-size: 16px;
+  padding: 10px;
+  justify-content: space-around;
+  color: #033E8C;
+  font-weight: 600; }
+
+.opcoes__menu {
+  display: inline;
+  padding: 10px 10px;
+  background-color: #6C757D;
+  color: white;
+  border-radius: 2px; }
+
+.pacote__viagem {
+  font-size: 16px;
+  font-weight: 600;
+  background-color: #033E8C;
+  color: white;
+  padding: 10px; }
+
+.opcao_pacote {
+  padding: 40px;
+  display: flex;
+  justify-content: center;
+  text-align: justify;
+  gap: 2px; }
+
+.partida__destino {
+  width: 20%;
+  padding: .375rem 2.25rem .375rem .75rem;
+  font-size: 1rem;
+  color: white;
+  background-color: #6C757D;
+  border-radius: .375rem; }
+
+.destinos__procurados {
+  display: flex;
+  flex-direction: column;
+  padding: 40px; }
+
+.title__destinos {
+  text-align: center;
+  font-size: 50px;
+  padding-bottom: 50px;
+  color: #033E8C;
+  font-weight: 600; }
+
+.cidades_procuradas {
+  display: flex;
+  justify-content: center;
+  padding: 20px;
+  gap: 10px;
+  text-align: center;
+  color: #033E8C;
+  font-weight: 600; }
+
+.img__cidades {
+  height: 250px; }
+
+.titulo__ofertas {
+  text-align: center;
+  font-size: 50px;
+  padding-bottom: 50px;
+  color: #033E8C;
+  font-weight: 600; }
+
+.pacote__ofertas {
+  display: flex;
+  justify-content: center;
+  padding: 20px;
+  gap: 10px;
+  text-align: center;
+  color: #033E8C;
+  font-weight: 600; }
+
+.ofertas {
+  font-size: 16px;
+  font-weight: 600;
+  margin-top: 1%;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  width: 310px;
+  height: 250px; }
+
+.rodape {
+  margin-top: 3%;
+  background-color: #494747;
+  display: flex;
+  justify-content: space-evenly; }
+
+.app_store {
+  width: 70px;
+  height: 30px; }
+
+.redes_sociais {
+  width: 25px;
+  height: 25px; }
+
+.farma__pagamento {
+  width: 25px;
+  height: 20px; }

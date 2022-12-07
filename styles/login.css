@@ -1,67 +1,73 @@
-.menu__login {
-   display: flex;
-   align-items: right;
-   justify-content: right;
-}
 
-.email__login {
-   display: flex;
-   align-items: center;
-   justify-content: center;
-   width: 100%;
-	height: 40px;
-   margin: 10px;
-	
-}
 
-.senha__login {
-   display: flex;
-   align-items: center;
-   justify-content: center;
-   width: 100%;
-	height: 40px;
-   margin: 10px;
-}
+/* desktop */
 
-.form__login{
-   display: flex;
-   align-items: center;
-   justify-content: center;
-   text-align: center;
-   color: #033E8C;
-   font-size: 25px;
-   height: 70vh;
-   font-weight: 600;
-}
+@media screen and (min-width: 993px) {
 
-.card {
-   text-justify: inherit;
-   border-radius: 10px;
-   padding: 40px;
-   width: 700px;
-   font-weight: 600;
-}
+   .menu__login {
+    display: flex;
+    align-items: right;
+    justify-content: right;
+   }
 
-.button__login {
-   width: 100%;
-   height: 40px;
-   margin: 10px;
-   color: #e4e7eb;
-   background:#033E8C;
-}
+   .email__login {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      width: 100%;
+	   height: 40px;
+      margin: 10px;
+	}  
 
-.esqueceu__senha {
-   text-align: center;
-   font-size: 12px;
-   opacity: 0.8;
-   color: #033E8C;
-   text-decoration: none;
-}
+   .senha__login {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      width: 100%;
+      height: 40px;
+      margin: 10px;
+   }
 
-.criar__login {
-   text-align: center;
-   font-size: 12px;
-   opacity: 0.8;
-   color: #033E8C;
-   text-decoration: none;
+   .form__login{
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      text-align: center;
+      color: #033E8C;
+      font-size: 25px;
+      height: 70vh;
+      font-weight: 600;
+   }
+
+   .card {
+      text-justify: inherit;
+      border-radius: 10px;
+      padding: 40px;
+      width: 700px;
+      font-weight: 600;
+   }
+
+   .button__login {
+      width: 100%;
+      height: 40px;
+      margin: 10px;
+      color: #e4e7eb;
+      background:#033E8C;
+   }
+
+   .esqueceu__senha {
+      text-align: center;
+      font-size: 12px;
+      opacity: 0.8;
+      color: #033E8C;
+      text-decoration: none;
+   }
+
+   .criar__login {
+      text-align: center;
+      font-size: 12px;
+      opacity: 0.8;
+      color: #033E8C;
+      text-decoration: none;
+   }
 }
